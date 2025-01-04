@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Constants.appOwnership` API within a background task.  The API call returns `undefined` instead of the expected boolean value, leading to unexpected behavior in your application. This issue is subtle as it only manifests when certain conditions are met and may not be apparent during standard development testing.
